@@ -28,7 +28,7 @@ Policy Development: Informing agricultural policies and decision-making.
 
 Usage
 
-Load the Dataset: Import the data into your preferred analysis tool (e.g., Python, R, Excel).
+Load the Dataset: Import the data into your preferred analysis tool Python.
 
 Explore the Data: Analyze regional trends, seasonal variations, and price dynamics.
 
@@ -75,10 +75,15 @@ data.head()
 
 ### Visualize price trends
 plt.figure(figsize=(10, 6))
+
 data.groupby('Date')['Price'].mean().plot()
+
 plt.title('Average Vegetable Prices Over Time')
+
 plt.xlabel('Date')
+
 plt.ylabel('Average Price')
+
 plt.show()
 
 Contribution
